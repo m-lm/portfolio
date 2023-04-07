@@ -1,0 +1,46 @@
+body {
+    font-family: "Playfair Display", sans-serif;
+    text-align: center;
+}
+
+p {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#menu {
+    background-color: white;
+    width: 50%;
+    border-bottom-style: inset;
+    border-bottom-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    color: black;
+    font-weight: 400;
+    margin: 12px;
+    font-size: 16px;
+    letter-spacing: 0.3em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.menu-selection {
+    color: black;
+    text-shadow: 0.5px 0px 0px black;
+    letter-spacing: 0.15em;
+    font-size: 14px;
+    margin: auto 12px 12px 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    transition: color .2s ease;
+}
+
+.menu-selection:hover {
+    color: transparent;
+}
