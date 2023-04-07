@@ -48,11 +48,9 @@ p {
 
 #curtain {
     opacity: 0;
-    filter: blur(.2px);
     transition: all 1.2s ease-in;
 }
 
 #curtain.introduce {
     opacity: 1;
-    filter: blur(0);
 }
