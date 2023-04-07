@@ -31,6 +31,8 @@ p {
 }
 
 .menu-selection {
+    cursor: pointer;
+    text-decoration: none;
     color: black;
     text-shadow: 0.5px 0px 0px black;
     letter-spacing: 0.15em;
@@ -44,6 +46,7 @@ p {
 
 .menu-selection:hover {
     color: transparent;
+    text-decoration: underline;
 }
 
 #curtain {
@@ -52,5 +55,14 @@ p {
 }
 
 #curtain.introduce {
+    opacity: 1;
+}
+
+#paras {
+    opacity: 0;
+    transition: all 1.2s .5s ease-in;
+}
+
+#paras.introduce {
     opacity: 1;
 }
