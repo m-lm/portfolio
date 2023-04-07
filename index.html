@@ -8,16 +8,19 @@
     <body>
         <div id = "menu">
             <div id = "name">Micah McCollum</div>
-            <div class = "menu-selection">software</div>
-            <div class = "menu-selection">music</div>
-            <div class = "menu-selection">about</div>
-            <div class = "menu-selection">contact</div>
+            <div class = "menu-selection" onclick = "displaySection('software')">software</div>
+            <div class = "menu-selection" onclick = "displaySection('music')">music</div>
+            <div class = "menu-selection" onclick = "displaySection('about')">about</div>
+            <div class = "menu-selection" onclick = "displaySection('contact')">contact</div>
         </div>
-        <p id = "software" style = "display: none;"></p>
-        <p id = "music" style = "display: none;"></p>
-        <p id = "about">
-        Hi, I'm Micah.
-        </p>
-        <p id = "contact" style = "display: none;"></p>
+        <div id = "paras">
+            <p id = "software" style = "display: none;">Here are my pet projects.</p>
+            <p id = "music" style = "display: none;">Here is the music I produce.</p>
+            <p id = "about" style = "display: inherit;">
+            Hi, I'm Micah.
+            </p>
+            <p id = "contact" style = "display: none;">Here is where you can keep in touch.</p>
+        </div>
     </body>
+    <script src = "display.js"></script>
 </html>
