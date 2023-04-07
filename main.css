@@ -6,6 +6,7 @@ body {
 p {
     margin-left: 30%;
     margin-right: 30%;
+    font-size: 16px;
 }
 
 #menu {
@@ -22,7 +23,7 @@ p {
     color: black;
     font-weight: 400;
     margin: 12px;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 0.3em;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -33,7 +34,7 @@ p {
     color: black;
     text-shadow: 0.5px 0px 0px black;
     letter-spacing: 0.15em;
-    font-size: 14px;
+    font-size: 16px;
     margin: auto 12px 12px 12px;
     -webkit-user-select: none;
     -moz-user-select: none;
