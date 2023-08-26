@@ -10,6 +10,7 @@ p {
 }
 
 #menu {
+    z-index: 999;
     background-color: white;
     width: 50%;
     border-bottom-style: inset;
@@ -31,6 +32,7 @@ p {
 }
 
 .menu-selection {
+    display: none;
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -58,11 +60,11 @@ p {
     opacity: 1;
 }
 
-#paras {
+#info {
     opacity: 0;
     transition: all 1.2s .5s ease-in;
 }
 
-#paras.introduce {
+#info.introduce {
     opacity: 1;
 }
