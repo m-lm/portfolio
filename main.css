@@ -26,6 +26,7 @@ body {
 }
 
 .menu-selection {
+    /* Keep display as none for now */
     display: none;
     cursor: pointer;
     text-decoration: none;
@@ -47,7 +48,7 @@ body {
 
 #curtain {
     opacity: 0;
-    transition: all 1.2s ease-in;
+    transition: opacity 1.2s ease-in;
 }
 
 #curtain.introduce {
@@ -55,13 +56,16 @@ body {
 }
 
 #info {
-    opacity: 0;
     font-size: 16px;
     margin-left: 30%;
     margin-right: 30%;
-    transition: all 1.2s .5s ease-in;
 }
 
-#info.introduce {
+.subinfo {
+    opacity: 0;
+    transition: opacity 3.2s 0.5s; 
+}
+
+.subinfo.introduce {
     opacity: 1;
 }
