@@ -29,16 +29,16 @@ a {
     text-decoration: none;
     box-shadow: none;
     border-style: none;
-    transition: box-shadow .2s ease-out;
+    transition: box-shadow .2s ease;
 }
 
 a:hover {
-    box-shadow: 1px 1px 1px 1px black;
+    box-shadow: .8px .8px .8px .8px black;
 }
 
 .menu-selection {
     /* Keep display as none for now */
-    display: inherit;
+    display: none;
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -49,15 +49,11 @@ a:hover {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    transition: box-shadow .3s ease;
+    transition: box-shadow .2s ease;
 }
 
 .menu-selection:hover {
     box-shadow: .8px .8px .8px .8px black;
-    /*
-    color: transparent;
-    text-decoration: underline;
-    */
 }
 
 #curtain {
