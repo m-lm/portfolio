@@ -38,7 +38,7 @@ a:hover {
 
 .menu-selection {
     /* Keep display as none for now */
-    display: none;
+    display: inherit;
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -49,12 +49,15 @@ a:hover {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    transition: color .2s ease;
+    transition: box-shadow .3s ease;
 }
 
 .menu-selection:hover {
+    box-shadow: .8px .8px .8px .8px black;
+    /*
     color: transparent;
     text-decoration: underline;
+    */
 }
 
 #curtain {
