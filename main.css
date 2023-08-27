@@ -25,6 +25,17 @@ body {
     user-select: none;
 }
 
+a {
+    text-decoration: none;
+    box-shadow: none;
+    border-style: none;
+    transition: box-shadow .2s ease-out;
+}
+
+a:hover {
+    box-shadow: 1px 1px 1px 1px black;
+}
+
 .menu-selection {
     /* Keep display as none for now */
     display: none;
