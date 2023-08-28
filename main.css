@@ -12,7 +12,7 @@ span {
     letter-spacing: 0.1em;
     word-spacing: 0.3em;
     line-height: 1.3em;
-    margin: 6px 0px 6px 0px;
+    margin: 8px 0px 8px 0px;
 }
 
 #menu {
@@ -94,6 +94,7 @@ a:hover {
 #about {
     transition-delay: 0.2s;
 }
+
 #about.introduce {
     opacity: 1;
 }
@@ -101,13 +102,15 @@ a:hover {
 #projects {
     transition-delay: 0.4s;
 }
+
 #projects.introduce {
     opacity: 1;
 }
 
-#music {
+#links {
     transition-delay: 0.6s;
 }
-#music.introduce {
+
+#links.introduce {
     opacity: 1;
 }
