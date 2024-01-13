@@ -69,6 +69,10 @@ a:hover {
     box-shadow: 1px 1px 3px 1px black;
 }
 
+a:link {
+    color: var(--hili);
+}
+
 a:visited {
     text-decoration: none;
     color: var(--hili);
