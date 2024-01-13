@@ -1,6 +1,20 @@
+:root {
+    --bg: white;
+    --txt: black;
+    --hili: orange;
+}
+
+.dark {
+    --bg: #3b4252;
+    --txt: white;
+    --hili: orange;
+}
+
 body {
-    font-family: "Oxygen Mono", sans-serif;
+    background-color: var(--bg);
+    font-family: sans-serif;
     text-align: center;
+    color: var(--txt);
 }
 
 span {
@@ -17,19 +31,21 @@ span {
 
 #menu {
     z-index: 999;
-    background-color: white;
+    background-color: var(--bg);
     width: 50%;
     border-bottom-style: inset;
-    border-bottom-color: black;
+    border-bottom-width: 1px;
     margin: auto;
+    padding-top: 6px;
     display: flex;
     justify-content: center;
+    vertical-align: center;
 }
 
 #name {
-    color: black;
+    color: var(--txt);
     font-weight: 500;
-    margin: 12px;
+    margin: auto 12px 12px 12px;
     font-size: 20px;
     letter-spacing: 0.2em;
     -webkit-user-select: none;
@@ -45,27 +61,31 @@ a {
 }
 
 a:hover {
-    box-shadow: 1px 1px 3px 1px black;
+    box-shadow: 1px 1px 3px 1px var(--txt);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--hili);
 }
 
 .menu-selection {
     /* Keep display as none for now */
-    display: none;
+    display: absolute;
     cursor: pointer;
     text-decoration: none;
-    color: black;
-    text-shadow: 0.5px 0px 0px black;
+    color: var(--txt);
     letter-spacing: 0.15em;
     font-size: 16px;
     margin: auto 12px 12px 12px;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    transition: box-shadow .2s ease;
+    transition: all .2s ease;
 }
 
 .menu-selection:hover {
-    box-shadow: 1px 1px 3px 1px black;
+    color: var(--hili);
 }
 
 #curtain {
