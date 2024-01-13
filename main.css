@@ -1,13 +1,13 @@
 :root {
-    --bg: white;
-    --txt: black;
-    --hili: orange;
+    --bg: #eceff4;
+    --txt: #2e3440;
+    --hili: #5e81ac;
 }
 
 .dark {
     --bg: #3b4252;
-    --txt: white;
-    --hili: orange;
+    --txt: #eceff4;
+    --hili: #88c0d0;
 }
 
 body {
@@ -51,7 +51,12 @@ span {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
+    cursor: pointer;
     transition: all .2s ease;
+}
+
+#name:hover {
+    color: var(--hili);
 }
 
 a {
