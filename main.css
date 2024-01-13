@@ -1,7 +1,7 @@
-:root {
+:root { 
     --bg: #eceff4;
     --txt: #2e3440;
-    --hili: #5e81ac;
+    --hili: #5e81ac; /* #E67F32 for orange */
 }
 
 .dark {
