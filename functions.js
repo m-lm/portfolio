@@ -2,11 +2,11 @@ function introduce() {
     if (localStorage.getItem("theme") == "dark") {
         toggle_theme();
     }
-    const c1 = document.getElementById("curtain");
-    const c2 = document.getElementsByClassName("subinfo");
-    c1.classList.toggle("introduce");
-    for (var i = 0; i < c2.length; i++) {
-        c2[i].classList.toggle("introduce");
+    const x = document.getElementById("curtain");
+    const y = document.getElementsByClassName("subinfo");
+    x.classList.toggle("introduce");
+    for (var i = 0; i < y.length; i++) {
+        y[i].classList.toggle("introduce");
     }
 }
 
