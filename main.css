@@ -19,11 +19,13 @@ body {
 }
 
 span {
+    /*
     padding-left: 12px;
     background-image: linear-gradient(var(--hili), var(--hili));
     background-size: 4px 100%;
     background-repeat: no-repeat;
     background-position: 0 90%;
+    */
     display: flex;
     justify-content: left;
     text-align: left;
@@ -44,7 +46,7 @@ span {
     border-bottom-width: 1px;
     */
     margin: auto;
-    padding-top: 6px;
+    padding-top: 8px;
     justify-content: center;
     display: flex;
 }
@@ -59,19 +61,11 @@ span {
     -moz-user-select: none;
     user-select: none;
     cursor: pointer;
-    /*
-    padding-left: 12px;
-    background-image: linear-gradient(var(--hili), var(--hili));
-    background-size: 0px 10%;
-    background-repeat: no-repeat;
-    background-position: 0 90%;
-    */
     transition: all .2s ease;
 }
 
 #name:hover {
     color: var(--hili);
-    /* background-size: 4px 100%; */
 }
 
 a {
