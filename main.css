@@ -1,14 +1,15 @@
 :root { 
     --bg: #eceff4;
     --txt: #2e3440;
-    --hili: #5e81ac; /* #E67F32 for orange */
-    /*--hili: #5e81ac; */
+    --hili: #5e81ac;
+    --bottom: #d8dee9;
 }
 
 .dark {
     --bg: #3b4252;
     --txt: #eceff4;
     --hili: #88c0d0;
+    --bottom: #2e3440; 
 }
 
 html {
@@ -17,7 +18,7 @@ html {
 }
 
 body {
-    background-color: var(--bg);
+    background: linear-gradient(var(--bg), 80%, var(--bottom));
     font-family: "Inter", sans-serif;
     text-align: center;
     color: var(--txt);
