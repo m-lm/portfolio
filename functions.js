@@ -13,7 +13,6 @@ function introduce() {
 }
 
 function toggleTheme() {
-    const b = document.getElementById("mode");
     document.body.classList.toggle("dark");
     if (document.body.className != "dark") {
         localStorage.setItem("theme", "light");
