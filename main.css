@@ -29,6 +29,7 @@ body {
 
 span {
     padding-left: 12px;
+    margin: 8px 0px 8px 0px;
     background-image: linear-gradient(var(--hili), var(--hili));
     background-size: 4px 100%;
     background-repeat: no-repeat;
@@ -41,7 +42,9 @@ span {
     letter-spacing: 0.05em;
     word-spacing: 0.2em;
     line-height: 1.5em;
-    margin: 8px 0px 8px 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 #menu {
