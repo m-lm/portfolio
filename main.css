@@ -2,12 +2,18 @@
     --bg: #eceff4;
     --txt: #2e3440;
     --hili: #5e81ac; /* #E67F32 for orange */
+    /*--hili: #5e81ac; */
 }
 
 .dark {
     --bg: #3b4252;
     --txt: #eceff4;
     --hili: #88c0d0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
 }
 
 body {
@@ -19,13 +25,11 @@ body {
 }
 
 span {
-    /*
     padding-left: 12px;
     background-image: linear-gradient(var(--hili), var(--hili));
     background-size: 4px 100%;
     background-repeat: no-repeat;
     background-position: 0 90%;
-    */
     display: flex;
     justify-content: left;
     text-align: left;
@@ -39,12 +43,6 @@ span {
 
 #menu {
     z-index: 999;
-    background-color: var(--bg);
-    /*
-    width: 50%;
-    border-bottom-style: inset;
-    border-bottom-width: 1px;
-    */
     margin: auto;
     padding-top: 8px;
     justify-content: center;
@@ -93,25 +91,6 @@ a:link {
 a:visited {
     text-decoration: none;
     color: var(--txt); 
-}
-
-.menu-selection {
-    /* Keep display as none for now */
-    display: none;
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--txt);
-    letter-spacing: 0.15em;
-    font-size: 16px;
-    margin: auto 12px 12px 12px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    transition: all .2s ease;
-}
-
-.menu-selection:hover {
-    color: var(--hili);
 }
 
 #curtain {
