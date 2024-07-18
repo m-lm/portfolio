@@ -155,11 +155,17 @@ a:visited {
     height: 20px;
     cursor: pointer;
     user-select: none;
-    transition: opacity .2s ease;
+    opacity: 0;
+    transition: opacity 1.8s ease;
+    transition-delay: 0.8s;
 }
 
 #mode:hover {
     opacity: .75;
+}
+
+#mode.introduce {
+    opacity: 1;
 }
 
 /* mobile
