@@ -5,7 +5,7 @@ function introduce() {
     const x = document.getElementById("curtain");
     const y = document.getElementsByClassName("subinfo");
     x.classList.toggle("introduce");
-    for (var i = 0; i < y.length; i++) {
+    for (let i = 0; i < y.length; i++) {
         y[i].classList.toggle("introduce");
     }
 }
