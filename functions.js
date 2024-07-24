@@ -14,6 +14,12 @@ function introduce() {
 
 function toggleTheme() {
     document.body.classList.toggle("dark");
+    if (document.body.classList.contains("dark")) {
+        document.getElementById("mode").src = "assets/light.svg"
+    }
+    else {
+        document.getElementById("mode").src = "assets/dark.svg"
+    }
     if (document.body.className != "dark") {
         localStorage.setItem("theme", "light");
     }
