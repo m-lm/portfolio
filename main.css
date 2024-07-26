@@ -60,6 +60,7 @@ span {
 }
 
 #name {
+    text-align: left;
     color: var(--txt);
     font-weight: 500;
     margin: 12px;
@@ -145,9 +146,8 @@ a:visited {
 }
 
 #mode {
-    z-index: 999;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
     user-select: none;
     opacity: 0;
@@ -172,6 +172,12 @@ a:visited {
 .icon:hover {
     transform: translateY(-1px);
     filter: var(--icon-hili);
+}
+
+#avi {
+    width: 360px;
+    height: 180px;
+    border-radius: 12px;
 }
 
 /* mobile
