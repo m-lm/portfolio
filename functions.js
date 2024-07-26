@@ -29,3 +29,8 @@ function toggleTheme() {
 }
 
 window.addEventListener("load", introduce);
+/*
+window.addEventListener("load", () => {
+    document.getElementById("avi").src = (Math.random() >= .5) ? "assets/sky.jpeg" : "assets/me2.jpg";
+})
+*/
