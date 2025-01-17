@@ -174,14 +174,6 @@ a:visited {
     filter: var(--icon-hili);
 }
 
-#avi {
-    width: 30%;
-    height: 30%;
-    border-radius: 8px;
-    user-select: none;
-    pointer-events: none;
-}
-
 /* mobile
 @media (max-width: 600px) {
 }
